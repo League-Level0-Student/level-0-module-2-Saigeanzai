@@ -6,9 +6,32 @@ package _01_random._5_magic_8_ball;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class Magic8Ball {
 
 	// 1. Make a main method that includes all the steps below
+public static void main(String[] args) {
+	JOptionPane.showInputDialog("enter a question");
+	Random rand = new Random();
+	int randomNumber=rand.nextInt(4);
+
+	if (randomNumber ==0) {
+		System.out.println("Yes");
+	} else if (randomNumber ==1) {
+		System.out.println("No");
+	} else if (randomNumber ==2) {
+		System.out.println("Maybe you should ask Google?");
+	} else if (randomNumber ==3) {
+		System.out.println("Hmmm, I don't know");
+	}
+	
+	
+	
+	
+}	
+	
+	
 
 	// 2. Get the user to enter a question for the 8 ball to answer
 	
