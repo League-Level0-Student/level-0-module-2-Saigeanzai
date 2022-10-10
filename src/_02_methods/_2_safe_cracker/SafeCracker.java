@@ -1,8 +1,7 @@
 //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
-
-package _02_methods._2_safe_cracker;
+r;
 
 import java.io.File;
 import java.util.Random;
@@ -21,8 +20,10 @@ public class SafeCracker {
 	
 	
 	public static void main(String[] args) {
+package _02_methods._2_safe_crackeng[] args) {
 		new SafeCracker().crackTheSafe();
 	}
+	
 
 	void crackTheSafe() {
 		/*
