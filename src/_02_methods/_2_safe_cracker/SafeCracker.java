@@ -1,7 +1,7 @@
 //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
-r;
+package _02_methods._2_safe_cracker;
 
 import java.io.File;
 import java.util.Random;
@@ -20,7 +20,6 @@ public class SafeCracker {
 	
 	
 	public static void main(String[] args) {
-package _02_methods._2_safe_crackeng[] args) {
 		new SafeCracker().crackTheSafe();
 	}
 	
@@ -29,8 +28,10 @@ package _02_methods._2_safe_crackeng[] args) {
 		/*
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
-		 */		
-
+		 */		int combinations;
+for (combinations =0; combinations<9999999; combinations ++) {
+	tryCode(combinations);
+}
 	}
 
 	 void tryCode(int guess) {
