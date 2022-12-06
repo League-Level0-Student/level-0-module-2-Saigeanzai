@@ -2,7 +2,7 @@ package _04_spot_the_error;
 
 import java.util.Random;
 
-importjavax.swing.JOptionPane;
+import javax.swing.JOptionPane;
 
 public class FixTheRandom {
 
@@ -14,7 +14,7 @@ public class FixTheRandom {
 		
 		Random random = new Random();
 		
-		int numnber = random.nextInt(5);
+		int numnber = random.nextInt(6)+5;
 		
 		if (numnber == 5) {
 			System.out.println("FIVE");
